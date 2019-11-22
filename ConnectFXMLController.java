@@ -408,7 +408,6 @@ public class ConnectFXMLController implements Initializable {
     private void quitPressed(ActionEvent event) {
         Alert alert = new Alert(AlertType.CONFIRMATION);
         alert.setTitle("Quit Connect Four");
-        alert.setHeaderText("Every time you quit my game, I will club a baby seal.");
         alert.setContentText("Are you sure you want to quit?");
 
         Optional<ButtonType> result = alert.showAndWait();
